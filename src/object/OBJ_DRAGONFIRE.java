@@ -3,11 +3,10 @@ package object;
 import entity.Projectile;
 import main.GamePanel;
 
-public class OBJ_FIREBALL extends Projectile {
+public class OBJ_DRAGONFIRE extends Projectile {
+    GamePanel gp;
 	
-	GamePanel gp;
-	
-	public OBJ_FIREBALL(GamePanel gp) {
+	public OBJ_DRAGONFIRE(GamePanel gp) {
 		super(gp);
 		this.gp = gp;
 		

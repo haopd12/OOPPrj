@@ -17,6 +17,7 @@ import javax.print.attribute.standard.JobPriority;
 import main.GamePanel;
 import main.KeyHandler;
 import main.UtilityTool;
+import object.OBJ_FIREBALL;
 
 public class Player extends Entity{
     KeyHandler keyH;
@@ -62,7 +63,7 @@ public class Player extends Entity{
         exp = 0;
         nextLevelExp = 5;
         coin = 0;
-        
+        projectile= new OBJ_FIREBALL(gp);
         
         
     }
@@ -157,6 +158,12 @@ public class Player extends Entity{
             	spriteCounter = 0;
             }
     	} 
+		if (gp.keyH.shotKeyExpressed==true&&projectile.alive==false) {
+			//set up projectile
+			projectile.set(worldX,worldY,direction,true,this);
+			//add to list
+			gp.projectileList.add(projectile);
+		}
     	//Invincible time
     	if(invincible == true) {
     		invicibleCounter++;

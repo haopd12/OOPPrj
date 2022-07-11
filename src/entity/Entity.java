@@ -59,7 +59,7 @@ public class Entity {
     public int coin;
     public Entity currentWeapon;
     public Entity currentShiled;
-
+	public Projectile projectile;
     //item Attributes 
     public int attackValue;
     public int defenseValue;
