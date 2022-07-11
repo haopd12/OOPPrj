@@ -69,14 +69,14 @@ public class Player extends Entity{
     }
     
     public void getPlayerImage(){
-        up1 = setup("/player/up1", gp.tileSize, gp.tileSize);
-        up2 = setup("/player/up2", gp.tileSize, gp.tileSize);
-        down1 = setup("/player/down1", gp.tileSize, gp.tileSize);
-        down2 = setup("/player/down2", gp.tileSize, gp.tileSize);
-        left1 = setup("/player/left1", gp.tileSize, gp.tileSize);
-        left2 = setup("/player/left2", gp.tileSize, gp.tileSize);
-        right1 = setup("/player/right1", gp.tileSize, gp.tileSize);
-        right2 = setup("/player/right2", gp.tileSize, gp.tileSize);
+        up1 = setup("/player/player1/PLAYER1_UP1", gp.tileSize, gp.tileSize);
+        up2 = setup("/player/player1/PLAYER1_UP2", gp.tileSize, gp.tileSize);
+        down1 = setup("/player/player1/PLAYER1_DOWN1", gp.tileSize, gp.tileSize);
+        down2 = setup("/player/player1/PLAYER1_DOWN2", gp.tileSize, gp.tileSize);
+        left1 = setup("/player/player1/PLAYER1_LEFT1", gp.tileSize, gp.tileSize);
+        left2 = setup("/player/player1/PLAYER1_LEFT2", gp.tileSize, gp.tileSize);
+        right1 = setup("/player/player1/PLAYER1_RIGHT1", gp.tileSize, gp.tileSize);
+        right2 = setup("/player/player1/PLAYER1_RIGHT2", gp.tileSize, gp.tileSize);
     }
     
     public void getPlayerAttackImage() {
