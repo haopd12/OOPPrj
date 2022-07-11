@@ -29,12 +29,20 @@ public class MON_Bear extends Entity{
     public void getImage() {
 		down1 = setup("/monster/Bear/BEARDOWN1", gp.tileSize, gp.tileSize);
 		down2 = setup("/monster/Bear/BEARDOWN2", gp.tileSize, gp.tileSize);
+		down3 = setup("/monster/Bear/BEARDOWN1", gp.tileSize, gp.tileSize);
+		down4 = setup("/monster/Bear/BEARDOWN2", gp.tileSize, gp.tileSize);
 		up1 = setup("/monster/Bear/BEARUP1", gp.tileSize, gp.tileSize);
 		up2 = setup("/monster/Bear/BEARUP2", gp.tileSize, gp.tileSize);
+		up3 = setup("/monster/Bear/BEARUP1", gp.tileSize, gp.tileSize);
+		up4 = setup("/monster/Bear/BEARUP2", gp.tileSize, gp.tileSize);
 		left1 = setup("/monster/Bear/BEARLEFT1", gp.tileSize, gp.tileSize);
 		left2 = setup("/monster/Bear/BEARLEFT2", gp.tileSize, gp.tileSize);
+		left3 = setup("/monster/Bear/BEARLEFT1", gp.tileSize, gp.tileSize);
+		left4 = setup("/monster/Bear/BEARLEFT2", gp.tileSize, gp.tileSize);
 		right1 = setup("/monster/Bear/BEARRIGHT1", gp.tileSize, gp.tileSize);
 		right2 = setup("/monster/Bear/BEARRIGHT2", gp.tileSize, gp.tileSize);
+		right3 = setup("/monster/Bear/BEARRIGHT1", gp.tileSize, gp.tileSize);
+		right4 = setup("/monster/Bear/BEARRIGHT2", gp.tileSize, gp.tileSize);
 	}
     public void setAction() {
 		actionLockCounter++;
