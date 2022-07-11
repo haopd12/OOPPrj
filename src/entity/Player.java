@@ -69,6 +69,7 @@ public class Player extends Entity{
     }
     
     public void getPlayerImage(){
+    	//Updated by Hogan
         up1 = setup("/player2/tile012", gp.tileSize, gp.tileSize);
         up2 = setup("/player2/tile013", gp.tileSize, gp.tileSize);
         up3 = setup("/player2/tile014", gp.tileSize, gp.tileSize);
@@ -227,7 +228,9 @@ public class Player extends Entity{
     		solidArea.height = solidAreaHeight;
     	
     	}
+
     	if(spriteCounter > 10&&spriteCounter<=15) {
+
     		spriteNum =3;
     		
     		int currentWorldX = worldX;
@@ -254,7 +257,9 @@ public class Player extends Entity{
     		solidArea.height = solidAreaHeight;
     	
     	}
+
     	if(spriteCounter > 15&&spriteCounter<=20) {
+
     		spriteNum =4;
     		
     		int currentWorldX = worldX;
@@ -384,7 +389,7 @@ public class Player extends Entity{
             		if(spriteNum == 3){image = up3;}
             		if(spriteNum == 4){image = up4;}
             	}
-            	if(attacking ==true) {
+            	if(attacking == true) {
             		tempScreenY = screenY - gp.tileSize;
             		if(spriteNum == 1){image = attackUp1;}
             		if(spriteNum == 2){image = attackUp2;}
@@ -399,7 +404,7 @@ public class Player extends Entity{
             		if(spriteNum == 3){image = down3;}
             		if(spriteNum == 4){image = down4;}
             	}
-            	if(attacking ==true) {
+            	if(attacking == true) {
             		if(spriteNum == 1){image = attackDown1;}
             		if(spriteNum == 2){image = attackDown2;}
             		if(spriteNum == 3){image = attackDown3;}
@@ -413,7 +418,7 @@ public class Player extends Entity{
             		if(spriteNum == 3){image = left3;}
             		if(spriteNum == 4){image = left4;}
             	}
-            	if(attacking ==true) {
+            	if(attacking == true) {
             		tempScreenX = screenX - gp.tileSize;
             		if(spriteNum == 1){image = attackLeft1;}
             		if(spriteNum == 2){image = attackLeft2;}
@@ -428,7 +433,7 @@ public class Player extends Entity{
             		if(spriteNum == 3){image = right3;}
             		if(spriteNum == 4){image = right4;}
             	}
-            	if(attacking ==true) {
+            	if(attacking == true) {
             		if(spriteNum == 1){image = attackRight1;}
             		if(spriteNum == 2){image = attackRight2;}
             		if(spriteNum == 3){image = attackRight3;}
