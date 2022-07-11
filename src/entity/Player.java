@@ -228,7 +228,9 @@ public class Player extends Entity{
     		solidArea.height = solidAreaHeight;
     	
     	}
-    	if(spriteCounter > 10 &&spriteCounter<=15) {
+
+    	if(spriteCounter > 10&&spriteCounter<=15) {
+
     		spriteNum =3;
     		
     		int currentWorldX = worldX;
@@ -255,7 +257,9 @@ public class Player extends Entity{
     		solidArea.height = solidAreaHeight;
     	
     	}
-    	if(spriteCounter > 15 &&spriteCounter<=20) {
+
+    	if(spriteCounter > 15&&spriteCounter<=20) {
+
     		spriteNum =4;
     		
     		int currentWorldX = worldX;
