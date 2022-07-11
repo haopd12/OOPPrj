@@ -69,6 +69,7 @@ public class Player extends Entity{
     }
     
     public void getPlayerImage(){
+    	//Updated by Hogan
         up1 = setup("/player2/tile012", gp.tileSize, gp.tileSize);
         up2 = setup("/player2/tile013", gp.tileSize, gp.tileSize);
         up3 = setup("/player2/tile014", gp.tileSize, gp.tileSize);
